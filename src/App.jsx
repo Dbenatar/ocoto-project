@@ -7,14 +7,14 @@ function App() {
     <header>
       <h1>React router Dom</h1>
         <Link to="/">Home</Link>
-        <Link to="/about"></Link>
+        <Link to="/barnicles"></Link>
     </header>
     <Routes>
     <Route path="/" element={<Home />} />
-    <Route path="/about" element={<About />} />
+    <Route path="/barnicles" element={<Barnicles />} />
     </Routes> 
 
-    <footer><p>&copy;Manipulated Dom</p></footer>
+    <footer><p>&copy;Created be Dom Benatar for Maia</p></footer>
     </>
     </BrowserRouter>
   )
