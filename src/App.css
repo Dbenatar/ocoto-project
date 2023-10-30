@@ -1,4 +1,22 @@
 body {
   background-color: #5ec1e5 ;
-  color: #ff9900
+  color: #004f6b
+}
+
+h1, h2, h3 {
+  text-decoration: underline;
+  text-align: center;
+  border: 5px solid #ff9900;
+  padding: 10px 20px;
+  background-color: #ff9900;
+  border-radius: 15px;
+}
+
+h1, h2 {
+  width: 200px;
+}
+
+h3 {
+  width: 150px;
+  max-width: fit-content;
 }

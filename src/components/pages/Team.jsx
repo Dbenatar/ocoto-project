@@ -22,7 +22,7 @@ export default function Team() {
     <div className="container"><h3>Professor Inkling</h3>
     <img src="./src/assets/images/inkling.png" alt="" />
     <p>Professor Inkling is a brilliant, Dumbo octopus oceanographer. He founded the Octonauts with the intention of furthering underwater research and preservation. Because of his delicate, big brain, he prefers to help the team from his library in the Octopod.</p></div>
-    <div className="container"><h3>Tweek</h3>
+    <div className="container"><h3>Tweak</h3>
     <img src="./src/assets/images/tweak.png" alt="" />
     <p>Tweak is the engineer for the Octopod. She keeps everything shipshape below deck in the engine room and maintains all Octonaut vehicles: GUP-A to GUP-Z. Tweak loves working with machinery and building strange contraptions that sometimes work in unexpected ways.</p></div>
     <div className="container"><h3>Tunip</h3>
