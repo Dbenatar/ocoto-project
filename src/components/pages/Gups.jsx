@@ -316,97 +316,175 @@ export default function Gups() {
       <div className="container">
         {" "}
         <h3>Gup S</h3>
-        <img src="" alt="" />
-        <p></p>
+        <img
+          src="src/assets/images/Gup-S634.PNG.webp"
+          alt="Image of the Gup S"
+        />
+        <p>
+          The Gup-S is a compound Gup, much like the Gup-X. Its main feature is
+          that splits into two, with one section (the front part) that can
+          travel on land, and the other (the back part) that can travel
+          underwater.
+        </p>
         <h4>Features:</h4>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>Shaped like a narwhal</li>
+          <li>Cockpit can detach from main body and be piloted separately.</li>
+          <li>Mini-workshop with a blueprint of the Gup-O</li>
+          <li>Creature containment unit with heating controls</li>
+          <li>Anti-freeze system</li>
+          <li>
+            Main body section contains a 4-person living space for sleeping
+          </li>
         </ul>
       </div>
       <div className="container">
         {" "}
         <h3>Gup T</h3>
-        <img src="" alt="" />
-        <p></p>
+        <img src="src/assets/images/gup-T.webp" alt="Image of the Gup T" />
+        <p>
+          The Gup-T is an upcoming Gup, based on the sea pig. It features twin
+          slime cannons behind the cockpit, and a removable scoop on the back.
+          It also has a vacuum on the front for sucking up gooey material. As
+          the four treads on the bottom suggest, it is likely going to be used
+          for traversing the bottom of the ocean.
+        </p>
         <h4>Features:</h4>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>Twin slime cannons</li>
+          <li>Front mounted vaccum</li>
+          <li>Four teads used for traversing the sea floor.</li>
         </ul>
       </div>
       <div className="container">
         {" "}
         <h3>Gup U</h3>
-        <img src="" alt="" />
-        <p></p>
+        <img
+          src="src/assets/images/Gup_U_Submarine_Mode.webp"
+          alt="Image of the Gup U"
+        />
+        <p>
+          It has legs which can extend and de-extend to the drivers liking. The
+          legs shoot things up into the air which allows this Gup to soar very
+          high.
+        </p>
         <h4>Features:</h4>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>Legs can be adjusted to the drivers liking</li>
+          <li>Headlight</li>
+          <li>Get travel on land or in the ocean.</li>
         </ul>
       </div>
       <div className="container">
         {" "}
         <h3>Gup V</h3>
-        <img src="" alt="" />
-        <p></p>
+        <img src="src/assets/images/gup-V.webp" alt="Image of the Gup V" />
+        <p>
+          The Gup-V is a Gup made by Tunip and the Vegimals in A Very Vegimal
+          Christmas. It is a long train-like underwater submersible with no roof
+          or dome over the top. It doesn't have a roof because the Vegimals can
+          breathe underwater. They use the ship to save the rest of the crew
+          from a giant sea snot blob. Although we don't know what happened to
+          this Gup after the events of the Very Vegimal Christmas, it is safe to
+          assume that it was (and still is) stored in the Octo-Repair Station.
+        </p>
         <h4>Features:</h4>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>
+            Manual paddle thrust; multiple crew members required for movement
+          </li>
+          <li>
+            The front module is equipped with a status display, which includes a
+            vacuum tank capacity meter.
+          </li>
+          <li>Retractable rescue line with a plunger</li>
         </ul>
       </div>
       <div className="container">
         {" "}
         <h3>Gup W</h3>
-        <img src="" alt="" />
-        <p></p>
+        <img src="src/assets/images/Gup_W..webp" alt="Image of the Gup W" />
+        <p>
+          The Gup-W is a medical Gup. It seems to be a large mobile hospital for
+          Peso. In Octonauts and the Great Barrier Reef, we have learned that it
+          houses a couple of medical octo-bots; the Nurse-bot and the
+          Bandage-bot, and there are little algae gardens to grow algae to feed
+          the reef creatures. Inside the mouth of the Gup-W, there are bubble
+          filters to clean water and it also includes an entrance/exit for the
+          Gup-P.{" "}
+        </p>
         <h4>Features:</h4>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>Based on a whale shark</li>
+          <li>Houses the Gup P</li>
+          <li>
+            Much like Peso's sick bay in the Octopod, there is 1 screen at the
+            back and 1 panel for optical purposes. On the front roof, there are
+            screens showing the location of the Gup. On one of the panels near
+            the ground, there is storage for a rescue net. On the other side, on
+            the opposite panel, there is storage for Tweak's tools, Peso's
+            stethoscope, medical bag, 3 rolls of bandage and 3 cases.
+          </li>
         </ul>
       </div>
       <div className="container">
         {" "}
         <h3>Gup X</h3>
-        <img src="" alt="" />
-        <p></p>
+        <img src="src/assets/images/Gup-x.webp" alt="Image of the Gup X" />
+        <p>
+          The Gup-X is a strong 3-in-1 Gup that can fit all of the Octonauts and
+          Vegimals. It is built to look like a horseshoe crab, and it was also a
+          Christmas present from Tweak for Captain Barnacles as it made its
+          debut in The Great Christmas Rescue. Tweak also says that it's the
+          strongest Gup she's ever made.
+        </p>
         <h4>Features:</h4>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>The second biggest Gup after the Gup-I.</li>
+          <li>Octo-Suction treading.</li>
+          <li>
+            Unbreakable outer shell, especially against falling rocks and
+            crashing waves.
+          </li>
         </ul>
       </div>
       <div className="container">
         {" "}
         <h3>Gup Y</h3>
-        <img src="" alt="" />
-        <p></p>
+        <img src="src/assets/images/gup-Y.webp" alt="Image of the Gup Y" />
+        <p>
+          The Gup-Y is an upcoming Gup. It may be a deep sea excavation Gup that
+          works around the Deep Sea Octolab. Not much more is known about it.{" "}
+        </p>
         <h4>Features:</h4>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>The Gup-Y looks like the road clearer of the Gups</li>
+          <li>
+            Designed to work in the Mariana Trench clearing fallen rocks, mud,
+            and other things down there.
+          </li>
+          <li> It is modeled after the yeti crab.</li>
         </ul>
       </div>
       <div className="container">
         {" "}
         <h3>Gup Z</h3>
-        <img src="" alt="" />
-        <p></p>
+        <img
+          src="src/assets/images/Gup_Z.webp"
+          alt="Image of the Gup Z in action"
+        />
+        <p>
+          The Gup-Z is the first 5-in-1 Gup, meaning almost everyone can use it.
+          It can split into five separate Gups, so everyone can drive in
+          different parts, and it can combine into a giant robot. It is the
+          ultimate Gup for saving creatures from erupting undersea volcanoes. It
+          is based on a vent shrimp.
+        </p>
         <h4>Features:</h4>
         <ul>
-          <li></li>
-          <li></li>
-          <li></li>
+          <li>Separate Gup Mode (Z1, Z2, Z3, Z4, Z5)</li>
+          <li>Mantis Shrimp Mode (Limited Power)</li>
+          <li>Mega Gup-Z Mode (Vent Shrimp)</li>
         </ul>
       </div>
     </>
