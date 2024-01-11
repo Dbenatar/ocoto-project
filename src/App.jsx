@@ -1,6 +1,6 @@
 import "./App.css";
 import Home from "./components/pages/Home";
-import Team from "./components/pages/Team";
+import Team from "./components/pages/Crew";
 import Gups from "./components/pages/Gups";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
@@ -20,7 +20,7 @@ function App() {
                   <Link to="/">Home</Link>
                 </li>
                 <li>
-                  <Link to="/team">Team</Link>
+                  <Link to="/crew">Crew</Link>
                 </li>
                 <li>
                   <Link to="/gups">Gups</Link>
@@ -31,7 +31,7 @@ function App() {
         </div>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/team" element={<Team />} />
+          <Route path="/crew" element={<Crew />} />
           <Route path="/gups" element={<Gups />} />
         </Routes>
 
