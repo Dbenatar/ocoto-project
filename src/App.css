@@ -6,13 +6,17 @@ body {
 }
 
 .header {
-  width: 80%;
+  width: 100%;
   margin: 0 auto;
 }
 
 .header img {
   height: 100px;
   length: 120px;
+}
+
+header {
+  background-color: #12adc5ba;
 }
 
 header::after {
