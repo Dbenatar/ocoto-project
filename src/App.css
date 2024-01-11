@@ -4,6 +4,82 @@ body {
   color: #004f6b;
   height: 900px;
 }
+
+.header {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.header img {
+  height: 100px;
+  length: 120px;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.logo {
+  float: left;
+  padding: 10px 0;
+}
+
+h1 {
+  display: inline-block;
+  padding: 10px 0;
+  margin-left: 50px;
+}
+
+nav {
+  float: right;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-left: 70px;
+  padding-top: 35px;
+  color: #004f6b;
+
+  position: relative;
+}
+
+nav a {
+  color: #004f6b;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #ff9900;
+  text-decoration: underline;
+}
+
+nav a ::before {
+  content: "";
+  display: block;
+  height: 5px;
+  width: 100%;
+  background-color: #ff9900;
+
+  position: absolute;
+  top: 0;
+  width: 0%;
+
+  transition: all ease-in-out 250ms;
+}
+
+nav a:hover ::before {
+  width: 100%;
+}
 /* 
 header {
   text-align: center;

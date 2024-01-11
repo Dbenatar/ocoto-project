@@ -1,6 +1,6 @@
 import "./App.css";
 import Home from "./components/pages/Home";
-import Team from "./components/pages/Crew";
+import Crew from "./components/pages/Crew";
 import Gups from "./components/pages/Gups";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 
@@ -10,20 +10,29 @@ function App() {
       <>
         <div class="header">
           <header>
-            <h1>
-              Maia's Octo database<a href="src/assets/images/logo.jpeg"></a>
-            </h1>
+            <img
+              src="src/assets/images/logo.jpeg"
+              alt="logo"
+              class="logo"
+            ></img>
+            <h1>Maia's Octo database</h1>
 
             <nav>
               <ul>
                 <li>
-                  <Link to="/">Home</Link>
+                  <a>
+                    <Link to="/">Home</Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="/crew">Crew</Link>
+                  <a>
+                    <Link to="/crew">Crew</Link>
+                  </a>
                 </li>
                 <li>
-                  <Link to="/gups">Gups</Link>
+                  <a>
+                    <Link to="/gups">Gups</Link>
+                  </a>
                 </li>
               </ul>
             </nav>
